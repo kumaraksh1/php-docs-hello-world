@@ -63,4 +63,4 @@ jobs:
           app-name: 'php-landing-page-apache'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_106CD5DAE46746E59EAECC912F6A210C }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_13C63F7A36334187AFABC752CAFB2CEA }}
