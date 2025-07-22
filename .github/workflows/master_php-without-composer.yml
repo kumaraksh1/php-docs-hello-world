@@ -66,7 +66,7 @@ jobs:
           subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_92BA1D59CA0D4EF8AF577857CD8BEEDF }}
 
       - name: 'Deploy to Azure Web App'
-        uses: azure/webapps-deploy@releases/v2-recurisive-file-check
+        uses: azure/webapps-deploy@releases/v3
         id: deploy-to-webapp
         with:
           app-name: 'php-without-composer'
